@@ -1,4 +1,4 @@
-const text = ["Pranjal", "Digvijay", "Ksitiz"];
+const text = ["Karthik Vedantam", "Chandra Paul", "Ankit Sharma", "Pankaj Prashar", "Sahil Aadarsh", "Sujot Singh", "Debabrata Hazarika", "Hari Shankar Sharma", "Sahaj Kulshrestha", "Kshitij Kumar" , "Astha ", "Kusum Koli"];
 let count = 0;
 let index = 0;
 let currentText = "";
