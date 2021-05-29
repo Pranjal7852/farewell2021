@@ -85,6 +85,9 @@ nav ul a:hover {
 .sticky {
     transform: translateY(0%);
 }
+.up-btn {
+    display: none;
+}
 /* MAIN DIV STARTS HERE */
 .main {
     display: flex;

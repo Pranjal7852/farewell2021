@@ -1,4 +1,40 @@
 @media screen and (max-width:425px) {
+    /* NAVBAR { */
+        nav {
+            min-height: 8vh;
+            display: flex;
+            padding: 1vh 2vw;
+        } 
+        nav .logo {
+            font-size: 5.1vw;
+        }
+        .rot-pixo img {
+            width: 8vw;
+            opacity: 0.8;
+        } 
+        nav .rot-pixo {
+            width: 8vw;
+            transform: translate(-100%, -100%);
+            position: absolute;
+            left: 80%;
+            top: 84%;}
+            nav ul {
+                display: none;
+            }
+            .up-btn {
+                display: block;
+                color: white;
+                font-size: 7.5vw;
+                margin: 0 15px;
+                transition: 1s;
+                text-decoration: none;
+            }
+            .up-btn:hover {
+                text-shadow: 2px 2px 5px black;
+            }                            
+
+        }
+    
     /* PIXO OFFSET SVG */
     #pixo_svg {
         width: 90vw;
@@ -68,17 +104,17 @@
         }        
         /* WRAPPER */
         .thankyou {
-            height: 8vh;
+            height: 7vh;
             background-color: rgb(44, 44, 44);
             overflow: hidden;
         }
         span.stroke {
-            font-size: 8vw;
+            font-size: 9vw;
             margin: 0 2vw;
             opacity: 0.8;
         }
         span.nostroke {
-            font-size: 8vw;
+            font-size: 9vw;
             opacity: 0.7;
         }
 
