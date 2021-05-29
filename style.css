@@ -243,7 +243,7 @@ nav ul a {
     animation: appear 3s ease forwards 6s;
     }
 .wrapper .statictxt {
-    color: rgba(248, 248, 248, 0.712);
+    color: rgba(253, 251, 251, 0.863);
     font-weight: 100;
 }
 .wrapper .dynamictxt {
@@ -473,6 +473,20 @@ background-size: cover;
     font-size: 1.9vw;
     margin-top: 2vh;
 }
+.fa-heart {
+    animation: beat 700ms infinite linear;
+}
+
 .fa-heart:hover {
     color: red;
+    
+}
+@keyframes beat {
+    to {
+        font-size: 2.2vw;
+    }
+}
+.foot .copy {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1vh;
 }
