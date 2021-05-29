@@ -246,8 +246,8 @@ nav ul a:hover {
     align-items: baseline;
     font-size: 2vw;
     margin-top: -10vh;
-    opacity: 0;
-    animation: appear 3s ease forwards 6s;
+    /* opacity: 0;
+    animation: appear 3s ease forwards 6s; */
     }
 .wrapper .statictxt {
     color: rgba(253, 251, 251, 0.863);
@@ -291,12 +291,6 @@ nav ul a:hover {
     min-height: 70vh;
     padding: 5vh 2vw;
 }
-.quote .heading,  {
-    /* font-weight: 800;
-    color: rgb(252, 252, 252);
-    letter-spacing: 0.2vw;
-    font-size: 4vw; */
-}
 .pixo-h1 {
     font-weight: 800;
     color: rgb(252, 252, 252);
@@ -312,7 +306,7 @@ nav ul a:hover {
     padding: 2vh 15vw;
     text-align: center;
 }
-.quote i, {
+.quote i {
     font-size: 3.5rem;
     opacity: 1 !important;
     text-shadow: 6px 6px 0px rgba(214, 214, 214, 0.466);
@@ -355,6 +349,11 @@ span.nostroke {
     color: rgb(241, 238, 238);
     font-size: 6vw;
     opacity: 0.7;
+}
+.thankyou {
+    height: 15vh;
+    background-color: rgb(44, 44, 44);
+    overflow: hidden;
 }
 @keyframes txtright {
     to {
@@ -460,11 +459,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: scroll;
 background-size: cover;
 }
-.thankyou {
-    height: 15vh;
-    background-color: rgb(44, 44, 44);
-    overflow: hidden;
-}
+
 .foot {
     min-height: 15vh;
     width: 100%;

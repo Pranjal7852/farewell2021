@@ -1,0 +1,77 @@
+@media screen and (max-width:425px) {
+    /* PIXO OFFSET SVG */
+    #pixo_svg {
+        width: 90vw;
+    } 
+    /* farewell Blink */
+    .txtfare {
+        font-size: 24vw;
+        left: 83vw;
+        top: 45vh;
+    }
+    /* neon effect  */
+    .container h1 {
+        font-size: 35vw;
+        margin: 0 0 0px 0;
+      }
+      /* WRAPPER */
+      .wrapper {
+        flex-direction: column;
+        font-size: 5.8vw;
+        margin-top: -10vh;
+        }
+        .wrapper .dynamictxt {
+            font-size: 9vw;
+        } 
+      /* VIDEO*/
+      .video {
+        min-height: 45vh;  
+    }
+    .video video {
+        width: 96%;
+    }
+    /* QUOTE */
+    .pixo-h1 {
+    font-weight: 800;
+    color: rgb(252, 252, 252);
+    letter-spacing: 0.2vw;
+    font-size: 8vw;
+    }
+    .pixo-h3 {
+        color: rgb(250, 250, 250);
+        opacity: 0.8;
+        font-size: 6vw;
+    }
+    .quote {
+        min-height: 40vh;
+    }
+    .border {
+        min-height: 40vh;
+        padding: 5vh 2vw;
+    }
+    .quote .message {
+        padding: 2vh 7vw;
+    }
+    .quote i {
+        font-size: 2.5rem;
+    }
+    /* FOTER */
+    .foot {
+        min-height: 10vh;
+        }
+        /* WRAPPER */
+        .thankyou {
+            height: 7vh;
+            background-color: rgb(44, 44, 44);
+            overflow: hidden;
+        }
+        span.stroke {
+            font-size: 8vw;
+            margin: 0 2vw;
+            opacity: 0.8;
+        }
+        span.nostroke {
+            font-size: 8vw;
+            opacity: 0.7;
+        }
+}
