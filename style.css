@@ -103,6 +103,7 @@ nav {
 /* Appear text */
 .txtfare {
     font-family: 'Dancing Script', cursive;
+    opacity: 0;
     animation: appear 3s ease forwards 3200ms;
     font-size: 12rem;
     position: absolute;
@@ -274,7 +275,6 @@ nav {
     flex-wrap: nowrap;
     height: 15vh;
     animation: txtright 20s infinite linear;
-    opacity: 0;
 }
 span.stroke {
     font-weight: 800;
