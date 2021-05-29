@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farewell 2021 | Pixonoids</title>
     <link rel="stylesheet" href="./style.css">
+	<!-- AOS CSS -->
+	<link rel="stylesheet" href="./aos-master/dist/aos.css">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
@@ -79,19 +81,10 @@
         </div>
     </div>
 	<div class="video">
-		<div class="heading-move">
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span>
-			<span class="stroke">VIDEO</span> <span class="nostroke">VIDEO</span> </div>
-		<div class="video-main">
+		
+			
+		<div class="video-main"> 
+			<div class="pixo-h1">VIDEO</div>
 			<video src="./video/farewell_clip.mp4" controls preload="auto" poster="./img/thumbnail.jpg" width="700px"></video>
 		</div>
 	</div>
@@ -104,13 +97,20 @@
 		</div>
 		
 	</div>
+	<!-- LEFT -->
 	<div class="senior adarsh">
-		<div class="card">
+		<div class="card"  data-aos="fade-left">
 			<div class="senior-main-left left">
 				<div class="heading pixo-h1">Web Developer</div>
 				<div class="desc pixo-h3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ipsum exercitationem praesentium optio rerum et cum tenetur laborum necessitatibus a asperiores neque, tempora voluptatem quae molestias animi nisi tempore impedit.</div>
-				<div class="icons icons-left"><a href="#"><i class="fab fa-instagram"></i></a> 
-							<a href="#"><i class="fab fa-whatsapp" style="margin-left: 2vw;"></i></a>		</div>
+				<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" class="spotify" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				<div class="icons">
+					
+						<div class="icons-left">
+							<a href="#"><i class="fab fa-instagram"></i></a> 
+							<a href="#"><i class="fab fa-whatsapp" style="margin-left: 2vw;"></i></a>
+						</div>
+					</div>
 			</div>
 			<div class="senior-main-right">
 				<div class="image"></div>
@@ -119,8 +119,9 @@
 		</div>
 		
 	</div>
-	<div class="digvijay senior">
-		<div class="card">
+	<!-- RIGHT -->
+	<div class="digvijay senior" >
+		<div class="card" data-aos="fade-right" >
 			<div class="senior-main-right">
 				<div class="image"></div>
 				<div class="name">Pranjal</div>
@@ -128,22 +129,36 @@
 			<div class="senior-main-left right">
 				<div class="heading pixo-h1">Web Developer</div>
 				<div class="desc pixo-h3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ipsum exercitationem praesentium optio rerum et cum tenetur laborum necessitatibus a asperiores neque, tempora voluptatem quae molestias animi nisi tempore impedit.</div>
+				<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" class="spotify" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 				<div class="icons icons-right"><a href="#"><i class="fab fa-instagram" style="margin-right: 2vw;"></i></a> 
 							<a href="#"><i class="fab fa-whatsapp"></i></a>		</div>
 			</div>
 		</div>
 
 	</div>
-	
-    <div id="particles-js" class="canvas"></div>
-    
-    <div class="intro">
-       <div>Welcome to My website</div>  
-       <button>Enter Now</button>
-    </div>
+	<div class="foot">
+		<div class="heading-move">
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			<span class="stroke">THANKYOU</span> <span class="nostroke">THANKYOU</span>
+			 </div>
+
+	</div>
 	<script src="https://kit.fontawesome.com/84588adc24.js" crossorigin="anonymous"></script>
-    <script src="./particles.js-master/particles.js"></script>
     <script src="./js/logo_svg.js"></script>
 	<script src="./js/wrapper.js"></script>
+	<script src="./aos-master/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 250, duration: 1500
+		});
+	</script>
 </body>
 </html>
