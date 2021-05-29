@@ -59,9 +59,16 @@
     .foot {
         min-height: 10vh;
         }
+        .foot .love {
+            font-size: 4vw;
+        }
+        .foot .copy {
+            font-size: 3vw;
+            margin-top: 1vh;
+        }        
         /* WRAPPER */
         .thankyou {
-            height: 7vh;
+            height: 8vh;
             background-color: rgb(44, 44, 44);
             overflow: hidden;
         }
@@ -74,4 +81,5 @@
             font-size: 8vw;
             opacity: 0.7;
         }
+
 }
