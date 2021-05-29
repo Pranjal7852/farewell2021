@@ -13,14 +13,72 @@
     overflow: hidden;
 }
 nav {
-    min-height: 6vh;
+    min-height: 4vh;
     width: 100%;
     position: fixed;
-    box-shadow: 0 2px 5px black;
-    /* background-color: rgba(56, 56, 56, 0.459); */
-    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 0px 5px black;
+    -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 4vw;
+    z-index: 10000;
+    transform: translateY(-100%);
+    transition: 2s;
 }
+nav .logo {
+    color: white;
+    display: flex;
+    
+    font-size: 3.2vw;
+}
+nav .rot-pixo {
+    justify-self: center;
+}
+nav .rot-pixo {
+    width: 4vw;
+    transform: translate(-100%, -100%);
+    position: absolute;
+    left: 52%;
+    top: 84%;
+}
+.rot-pixo img {
+    width: 4vw;
+    animation: rotate 10s infinite linear;
+    opacity: 0.7;
+    transition: 500ms;
+}
+.rot-pixo img:hover {
+    opacity: 1;
+    animation: none;
+} 
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+    from {
+        transform: rotate(0deg);
+    }
+}
+nav ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    margin: 0 15px;
+
+}
+.sticky {
+    transform: translateY(0%);
+}
+/* MAIN DIV STARTS HERE */
 .main {
     display: flex;
     flex-direction: column;
@@ -395,10 +453,26 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: scroll;
 background-size: cover;
 }
+.thankyou {
+    height: 15vh;
+    background-color: rgb(44, 44, 44);
+    overflow: hidden;
+}
 .foot {
-    min-height: 30vh;
+    min-height: 15vh;
     width: 100%;
     overflow: hidden;
     background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(241, 238, 238);
     
+}
+.foot .love {
+    font-size: 1.9vw;
+    margin-top: 2vh;
+}
+.fa-heart:hover {
+    color: red;
 }
