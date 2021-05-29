@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 .canvas {
     min-height: 100vh;
@@ -52,6 +53,7 @@ nav .rot-pixo {
 .rot-pixo img:hover {
     opacity: 1;
     animation: none;
+    cursor:grab;
 } 
 @keyframes rotate {
     to {
@@ -73,7 +75,12 @@ nav ul a {
     color: white;
     font-size: 1.5vw;
     margin: 0 15px;
+    transition: 1s;
 
+}
+nav ul a:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px black;
 }
 .sticky {
     transform: translateY(0%);
