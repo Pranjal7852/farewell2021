@@ -88,6 +88,65 @@
     .quote i {
         font-size: 2.5rem;
     }
+    /* CARDS */
+    .card {
+        display: flex;
+        margin: 2vh 4vw;
+        flex-direction: column-reverse;
+    }
+    .left, .right {
+        text-align: center;
+    }
+    .senior .desc {
+        margin-top: 1vh;
+    }
+    .senior-main-right {
+        flex-wrap: nowrap;
+        min-height: 45vh;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        margin-top: 2vh;
+    }
+    .senior-main-right .image {
+        background-image: url(./img/aadarsh\ sir\ b.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        clip-path: none;
+        height: 40vh;
+        width: 70vw;
+        opacity: 1;
+    }
+    .senior-main-right .name {
+        color: white;
+        opacity: 0.9;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-top: 2vh;
+        font-size: 4vw;
+    }
+    .senior .icons {
+        margin-top: 2vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .senior .icons a {
+        text-decoration: none;
+        font-size: 5.5vw;
+        
+        border-radius: 15px;
+        padding: 0.5vh 3.5vw;
+        color: white;
+        opacity: 0.8;
+        transition: 500ms;
+
+    }
+    .senior i {
+        color: white;
+        font-size: 5.5vw;
+        margin-right: 3vw;
+    }
+
     /* FOTER */
     .foot {
         min-height: 10vh;
