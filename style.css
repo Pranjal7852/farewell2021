@@ -398,6 +398,9 @@
     }
     .senior .desc {
         margin-top: 3vh;
+        padding: 2vh 4vw;
+        min-height: 40vh;
+        text-transform: capitalize;
     }
     .senior .icons {
         display: flex;
@@ -554,6 +557,7 @@ background-size: cover;
     }
     .fa-heart {
         animation: beat 700ms infinite linear;
+        margin-right: 0;
     }
     
     .fa-heart:hover {

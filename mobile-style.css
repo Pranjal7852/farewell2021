@@ -55,6 +55,9 @@
         }
         .wrapper .dynamictxt {
             font-size: 9vw;
+        }
+        .statictxtdot {
+            display: none;
         } 
       /* VIDEO*/
       .video {
@@ -98,7 +101,9 @@
         text-align: center;
     }
     .senior .desc {
-        margin-top: 1vh;
+        margin-top: 2vh;
+        min-height: 20vh;
+        text-transform: capitalize;
     }
     .senior-main-right {
         flex-wrap: nowrap;
