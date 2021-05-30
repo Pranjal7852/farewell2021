@@ -473,6 +473,10 @@ background-size: cover;
         text-transform: capitalize;
         letter-spacing: 1px;
         margin-top: -7vh;
+        /* display: none; */
+    }
+    .show {
+        display: block;
     }
     .adarsh {
         background-color: #ee6464;

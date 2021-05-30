@@ -1,6 +1,4 @@
-// var path = document.querySelectorAll("#pixo_svg path");
-// for (i = 0; i < path.length; i++) {
-//     var pathLength = path[i].getTotalLength();
-//     console.log(pathLength);
-    
-// }
+var imagediv1 = document.querySelector("#s1");
+imagediv1.addEventListener("mouseenter", function() {
+    document.querySelector("#t1").classList.toggle("show");
+})
